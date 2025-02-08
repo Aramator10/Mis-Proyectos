@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yadian - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo"></div>
+        <ul class="nav-links">
+            <li><a href="#about">SOBRE MI</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROYECTOS</a></li>
+            <li><a href="#storytelling">STORY TELLING</a></li>
+            <li><a href="#vfx">VFX</a></li>
+            <li><a href="#contact">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <header id="about" class="main-header">
+        <video class="header-video" autoplay loop muted>
+            <source src="Assets/video-presentacion.mp4" type="video/mp4">
+        </video>
+        
+        <div class="title-section">
+            <h1>HOLA, SOY</h1>
+            <h1>YADIAN!</h1>
+            <p>Experto en videos explicativos y de alto impacto.</p>
+        </div>
+    </header>
+
+    <section id="skills" class="skills-section">
+        <h2>SKILLS</h2>
+        <div class="skills-icons">
+            <div class="skill-item">
+                <img src="Assets/1200px-Adobe_Premiere_Pro_CC_icon.png" alt="Premiere Pro" class="skill-icon">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <img src="Assets/adobe-after-effects-logo-0.webp" alt="After Effects" class="skill-icon" style="width: 120px; height: 120px;">
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>PROYECTOS</h2>
+        <div class="projects-grid">
+            <div class="project-item">
+                <video src="Assets/3D a otro nivel.mp4" poster="Assets/image2.png" controls muted alt="3D A OTRO NIVEL"></video>
+                <div class="project-content">
+                    <div class="project-title">3D A OTRO NIVEL</div>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="project-item">
+                <video src="Assets/Hooks atractivos.mp4" poster="Assets/image3.png" controls muted alt="HOOKS ATRACTIVOS"></video>
+                <div class="project-content">
+                    <div class="project-title">HOOKS ATRACTIVOS</div>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="project-item">
+                <video src="Assets/Organización de ideas muy visuales.mp4" poster="Assets/image4.png" controls muted alt="HOOKS ATRACTIVOS"></video>
+                <div class="project-content">
+                    <div class="project-title">ORGANIZACIÓN DE IDEAS VISUALES</div>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="storytelling" class="projects-section">
+        <h2>STORYTELLING VISUAL</h2>
+        <div class="projects-grid">
+            <div class="project-item">
+                <video src="Assets/" poster="Assets/" controls muted alt="3D A OTRO NIVEL"></video>
+                <div class="project-content">
+                    <div class="project-title">WOJAK ANIMATIONS</div>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="project-item">
+                <video src="Assets/" poster="Assets/" controls muted alt="HOOKS ATRACTIVOS"></video>
+                <div class="project-content">
+                    <div class="project-title">MOTION GRAPHICS</div>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vfx" class="projects-section">
+        <h2>VFX</h2>
+        <div class="projects-grid">
+            <div class="project-item">
+                <video src="Assets/" poster="Assets/" controls muted alt="3D A OTRO NIVEL"></video>
+                <div class="project-content">
+                    <div class="project-title"></div>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="project-item">
+                <video src="Assets/" poster="Assets/" controls muted alt="HOOKS ATRACTIVOS"></video>
+                <div class="project-content">
+                    <div class="project-title"></div>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+        <h2>CONTACTO</h2>
+        <form 
+        class="contact-form" 
+        action="https://formspree.io/f/xpwqaekd"
+        method="POST">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+        
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Yadian. Todos los derechos reservados.</p>
+    </footer>
+</body> 
+</html>
